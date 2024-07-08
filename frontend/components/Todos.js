@@ -5,7 +5,7 @@ const StyledTodo = styled.li`
   text-decoration: ${pr => pr.$complete ? 'line-through' : 'initial'};
   cursor: pointer;
 `
-
+//(((video 3:59)))
 export default function Todo(props) {
   const {
     todos,
